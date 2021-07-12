@@ -4,9 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Product Landing Page</title>
 </head>
 <body>
+    <header id="header">
+        <div>
+            <div>
+                <img id="header-img" src="Logo.png" alt="logo">
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#audition">Audition</a>  
+                    </li>
+                    <li >  
+                        <a class="nav-link" href="#info">info</a>  
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="sign">
+            <form id="form"  action="https://www.freecodecamp.com/email-submit">
+                <h2>Sign in ur name to take part in the draw for audition at Pnation </h2>
+                <input name="email" id="email" type="email" placeholder="Sign in ur name" required="">
+                <input id="submit" type="submit" value="Sign" class="btn">
+              </form>
+        </section>
+            <div>
+                <section id="about">
+                    
+                </section>
+                <section id="audition">
+                    <iframe id="video" height="315" src="OA.mp4" frameborder="0" allowfullscreen=""></iframe>
+                </section>
+                <section id="info">
+                    <div class="product" >
+                        <div class="level">History</div>
+                        <h2>Lorem ipsum.</h2>
+                        <p id="style"> On May 14, 2018, it was reported that PSY would be leaving his agency, YG Entertainment, in order to start his own.</p>
+          
+                      </div>
+                      <div class="product" >
+                        <div class="level">Artists </div>
+                        <h2>Some well known artists</h2>
+                        <ol>
+                          <li>PSY</li>
+                          <li>Jessi</li>
+                          <li>Hyuna</li>
+                          <li>Dawn</li>
+                        </ol>
+                      
+                      </div>
+                      <div class="product" >
+                        <div class="level">Facts</div>
+                        <h2>Founder PSY</h2>
+                        <p id="style"> Rapper and singer Jessi has opened up about how P Nation founder PSY convinced her to join the agency.</p>
+                      </div>
+                </section>
+                <footer>Copyright 2021, design by Jenny Luong</footer>
+            </div>
+        </div>
+
+    
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
